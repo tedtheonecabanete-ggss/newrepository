@@ -208,14 +208,13 @@ section h2 {
   margin-bottom: 15px;
   color: #1e3c72;
 }
-/* General responsiveness */
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
   justify-content: center;
@@ -254,7 +253,7 @@ img {
   box-shadow: 0 4px 15px rgba(0,0,0,0.4);
 }
 
-/* Skills Section */
+
 .skills-container {
   display: flex;
   justify-content: center;
@@ -270,14 +269,14 @@ img {
   object-fit: contain;
 }
 
-/* Contact Section */
+
 .contact-info {
   max-width: 400px;
   margin: 0 auto;
   text-align: left;
 }
 
-/* Responsive breakpoints */
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -337,4 +336,5 @@ footer {
   font-size: 0.9rem;
   color: #bbb;
 }
+
 
